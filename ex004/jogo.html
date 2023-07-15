@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavanas</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <canvas id="mycavanas" width="480" height="320"></canvas>
+    <script>
+        var canvas = document.getElementById("mycanvas")
+        var x = canvas.width/2;
+        var y =canvas.height-30;
+        var dx= 2;
+        var dy= -2;
+        var ballRadius = 10;
+        function drawBall() {
+            ctx.beginPath();
+            ctx.arc(x,yballRadius,0,Math.PI*2);
+            ctx.fillStyle = "#0095DD";
+            ctx.fill();
+            ctx.closePath();
+        }
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width,canvas.height);
+            drawBall();
+            if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
+                dx = -dx;
+            }
+            if(y + dy > cavanas.height-ballRadius || y + dy < ballRadius) {
+                dy = -dy;
+            }
+            else{
+                x += dx;
+                y += dy;
+            }
+        }
+        setlnterval( draw, 10);
+    </script>
+</body>
+</html>

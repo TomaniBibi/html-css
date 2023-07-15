@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style02.css">
+    <title>login</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login-form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+            <div id="social_madia">
+                <a href="#">
+                    <img src="fotos/facebook.png" alt="facebook logo">
+                </a>
+                <a href="#">
+                    <img src="fotos/google.png" alt="google logo">
+                </a>
+                <a href="#">
+                    <img src="fotos/github.png" alt="github logo">
+                </a> 
+            </div>
+            <div id="inputs">
+                <div class="inuput-box">
+                    <label for="name">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+                <div class="inuput-box">
+                    <label for="email">
+                        Email
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <div class="inuput-box">
+                    <label for="password">
+                        password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="login_button">
+              login
+            </button>
+        </form>
+    </main>
+    <script src="scrip.JS"></script>
+</body>
+</html>
