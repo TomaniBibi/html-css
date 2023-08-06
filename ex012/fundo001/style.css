@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background: thistle;
+}
+header {
+    background: teal;
+    padding-top: 30px;
+    text-align: center;
+    margin: 20px;
+    margin-top: -10px;
+    border-radius: 5px;
+}
+header h1 {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.377);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    padding: 10px;
+    box-shadow: 0px 7
+}
+input{
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0px rgba(7, 83, 83, 0.678);
+    background: white; 
+}
+button{
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 0px rgba(7, 83, 83, 0.678);
+    background: white;   
+}
+button:hover{
+    background-color: rgb(91, 94, 93);
+    color: white;
+}
+button > a:hover {
+    color: white;
+}
+a{
+    color: rgb(37, 39, 39);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+
+}
+#main {
+    padding: 10px;
+    border-radius: 20px;
+}
+#main > a{
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+    margin-top: 30px;
+}
+#main > a:hover {
+    background-color: turquoise;
+    color: white;
+}
+section{
+    background: turquoise;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    margin-top:-19.8px;
+    padding: 15px;
+    border-radius: 5px;
+}
+footer{
+    background: teal;
+    padding-top: 30px;
+    text-align: center;
+    margin: 20px; 
+    margin: -20px;
+    color: white;  
+}
