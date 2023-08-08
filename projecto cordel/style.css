@@ -24,18 +24,18 @@ section{
     margin: auto;
     background-attachment: fixed;
 }
-article{
+.section{
     background-attachment: fixed;
-}
-#girasol{
     background-color:black;
-    background-image: url(imagem/download.jpg);
     width: 700px;
     height: 500px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: right center;
     box-shadow: inset 2px 2px 6px rgba(41, 40, 40, 0.658);
+}
+#girasol{
+    background-image: url(imagem/download.jpg);
 }
 .paragrafo{
     background-color: rgba(3, 3, 3, 0.575);
@@ -45,12 +45,5 @@ article{
     
 }
 #folhas{
-    background-color:black;
     background-image: url(imagem/background002.jpg);
-    width: 700px;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: right center;
-    box-shadow: inset 2px 2px 6px rgba(41, 40, 40, 0.658);
 }
