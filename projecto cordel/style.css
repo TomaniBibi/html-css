@@ -4,7 +4,7 @@
 header#cabeça{
     background-color: black;
     color: white;
-    font-family: "geologica" , sans-serif, Helvetica;
+    font-family: 'geologica' , sans-serif, Helvetica;
     text-align: center;
     height: 150px;
     margin-top: -30px;
@@ -23,11 +23,11 @@ section{
     background-size: cover;
     margin: auto;
     background-attachment: fixed;
+    line-height: 3rem;
 }
 .section{
     background-attachment: fixed;
     background-color:black;
-    width: 700px;
     height: 500px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -35,15 +35,22 @@ section{
     box-shadow: inset 2px 2px 6px rgba(41, 40, 40, 0.658);
 }
 #girasol{
-    background-image: url(imagem/download.jpg);
+    background-image: url(imagem/pikist.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    box-shadow: inset 2px 2px 6px rgba(41, 40, 40, 0.658);
+    background-attachment: fixed;
+    padding-top: 20px;
 }
 .paragrafo{
     background-color: rgba(3, 3, 3, 0.575);
     width: 250px;
-    height: 300px;
+    height: 400px;
     color: white;
-    
+    margin: 20px;
 }
 #folhas{
     background-image: url(imagem/background002.jpg);
+    padding-top: 20px;
 }
